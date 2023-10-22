@@ -1,0 +1,40 @@
+@font-face {
+    font-family:"China Fad";
+    src: url("fonts/China_Fad.eot?") format("eot"),
+        url("fonts/China_Fad.woff") format("woff"),
+        url("fonts/China_Fad.ttf") format("truetype"),
+        url("fonts/China_Fad.svg#ChinaFad") format("svg");
+    font-weight:normal;font-style:normal;}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.left-section {
+    background-image: url("images/polina-kuzovkova-WS6BzS9DhOY-unsplash.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    font-family: "China Fad";
+    width: 33%;
+    height: 100vh;
+}
+
+.right-section {
+
+    width: 67%;
+}
+
+div:has(> h1) {
+    background: #9f9890;
+    opacity: 50%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 52px;
+    color: #900a06;
+    padding: 6px;
+}
