@@ -4,3 +4,4 @@ contact: info@latl.xyz
 
 /* THANKS */
 Background image: Polina Kuzovkova on Unsplash https://unsplash.com/photos/a-building-with-a-sign-on-it-WS6BzS9DhOY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+Favicon: China by Tatiana from <a href="https://thenounproject.com/browse/icons/term/china/" target="_blank" title="China Icons">Noun Project</a> (CC BY 3.0)

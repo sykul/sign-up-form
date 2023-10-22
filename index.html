@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hanhua - Sign Up</title>
     <link rel="stylesheet" href="style.css" />
     <link type="text/plain" rel="author" href="humans.txt" />
+    <link type="images/x-icon" rel="icon" href="images/favicon.ico" />
 </head>
 <body>
     <div class="left-section">
         <div>
-            <h1>Hanhua</h1>
+            <h1>汉&NoBreak;Han<wbr>hua&NoBreak;华</h1>
         </div>
     </div>
     <div class="right-section">
-        
+        <section class="intro">
+            <p>Leading Chinese cultural centre in Aix-en-Provence.</p>
+            <p>Chic Chinoiserie in the heart of Provence.</p>
+            <p>Sign up now to receive exclusive offers on our range of stylish products and cultural services.</p>
+            <p>This is a test website and is not securely built. Do <b>not</b> put your real passwords in here.</p>
+        </section>
+        <form action="" method="get">
+                <section class="form-body">
+                    <p>Let's sign up!</p>
+                    <div>
+                        <label for="firstName">First name:</label>
+                            <input type="text" name="firstName" placeholder="Jean">
+                        <label for="lastName">Last name:</label>
+                            <input type="text" name="lastName" placeholder="Doe">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="example@example.fr">
+                        <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" placeholder="0123456789" pattern="0[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+                    </div>
+                    <div>
+                        <label for="pass">Password*</label>
+                            <input type="password" name="password" id="pass" required>
+                        <label for="pass2">Confirm password *</label>
+                            <input type="password" name="password2" id="pass2" required>
+                    </div>
+                </section>
+
+            <button type="submit">Submit</button>
+            </form>
+        <section>
+
+        </section>
     </div>
 </body>
 </html>

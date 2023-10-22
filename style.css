@@ -21,8 +21,10 @@ body {
 }
 
 .right-section {
-
+    display: flex;
+    flex-direction: column;
     width: 67%;
+    background-color: #f9fafb;
 }
 
 div:has(> h1) {
@@ -37,4 +39,9 @@ h1 {
     font-size: 52px;
     color: #900a06;
     padding: 6px;
+}
+
+section.form-body {
+    background: white;
+    border: 1px solid slategrey;
 }
