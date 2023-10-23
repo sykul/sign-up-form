@@ -10,6 +10,7 @@ body {
     display: flex;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
 }
 
 .left-section {
@@ -27,6 +28,12 @@ div.header-div {
     display: inline-block;
     width: 100%;
     text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+span.header {
+    display: inline-block;
 }
 
 h1 {
@@ -46,10 +53,15 @@ h1 {
 
 section.intro {
     margin: 20px 50px;
+    font-size: 20px;
 }
 
 form {
     width: 100%;
+}
+
+label {
+    color: #1f2937;
 }
 
 section.form-body {
@@ -58,30 +70,49 @@ section.form-body {
     flex-basis: 600px;
     flex-grow: 1;
     flex-shrink: 1;
-    padding: 20px 50px;
+    padding: 50px 60px 100px 60px;
+}
+
+section.form-body > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .form-items {
     display: flex;
-    gap: 5px;
+    gap: 20px;
     flex-direction: column;
 }
 
 .form-items > div {
     display: flex;
-    gap: 10px;
-
+    gap: 20px;
 }
 
 .form-items > div > div {
     flex-basis: 50%;
-    flex-shrink: 1;
+    flex-shrink: 3;
+    gap: 5px;
 }
 
 .label-field {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+}
+
+.label-field > input {
+    border-radius: 5px;
+}
+
+.label-field > input:focus {
+    border: 1px rgb(41, 41, 136) groove;
+    box-shadow: 2px 2px 3px 0.5px #c7c7c7;
+}
+
+.label-field > input:invalid {
+    border: 1px red groove;
 }
 
 button.create-account {
@@ -92,6 +123,19 @@ button.create-account {
     border-radius: 7px;
 }
 
+section.bottom-right {
+    justify-self: flex-start;
+}
+
 section.bottom-right > p {
     margin: 50px;
+}
+
+section.bottom-right > p > a:link {
+    color: #ad743a;
+}
+
+section.bottom-right > p > a:visited {
+    color: #50351a;
+    text-decoration: wavy;
 }
