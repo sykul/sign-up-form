@@ -9,6 +9,7 @@
 body {
     display: flex;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .left-section {
@@ -44,24 +45,53 @@ h1 {
 }
 
 section.intro {
-    margin: 20px;
+    margin: 20px 50px;
+}
+
+form {
+    width: 100%;
 }
 
 section.form-body {
     background: white;
-    border: 1px solid slategrey;
+    box-shadow: 5px 4px 10px 2px #9f9890;
     flex-basis: 600px;
     flex-grow: 1;
     flex-shrink: 1;
-    width: 100%;
     padding: 20px 50px;
 }
 
+.form-items {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.form-items > div {
+    display: flex;
+    gap: 10px;
+
+}
+
+.form-items > div > div {
+    flex-basis: 50%;
+    flex-shrink: 1;
+}
+
+.label-field {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
 button.create-account {
-    background-color: #829460;
-    margin: 20px;
+    background-color: #ad743a;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 7px;
 }
 
 section.bottom-right > p {
-    margin: 20px;
+    margin: 50px;
 }

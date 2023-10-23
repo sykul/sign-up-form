@@ -21,31 +21,47 @@
             <p>Sign up now to receive exclusive offers on our range of stylish products and cultural services.</p>
             <p>This is a test website and is not securely built. Do <b>not</b> put your real passwords in here.</p>
         </section>
+
         <form action="" method="get">
                 <section class="form-body">
                     <p>Let's sign up!</p>
-                    <div>
-                        <label for="firstName">First name:</label>
-                            <input type="text" name="firstName" placeholder="Jean">
-                        <label for="lastName">Last name:</label>
-                            <input type="text" name="lastName" placeholder="Doe">
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="example@example.fr">
-                        <label for="phone">Phone:</label>
-                            <input type="tel" name="phone" placeholder="0123456789" pattern="0[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
-                    </div>
-                    <div>
-                        <label for="pass">Password*</label>
-                            <input type="password" name="password" id="pass" required>
-                        <label for="pass2">Confirm password *</label>
-                            <input type="password" name="password2" id="pass2" required>
+                    <div class="form-items">
+                        <div>
+                            <div class="label-field">
+                                <label for="firstName">First name:</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Jean">
+                            </div>
+                            <div class="label-field">
+                                <label for="lastName">Last name:</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="d'Eau">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label-field">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="example@example.fr">
+                            </div>
+                            <div class="label-field">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="0[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label-field">
+                                <label for="pass">Password*</label>
+                                <input type="password" name="password" placeholder="••••••••" id="pass" required>
+                            </div>
+                            <div class="label-field">
+                                <label for="pass2">Confirm password *</label>
+                                <input type="password" name="password2" placeholder="••••••••" id="pass2" required>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
             <button class="create-account" type="submit">Create account</button>
             </form>
+
         <section class="bottom-right">
             <p>Already have an account? <a href="#">Log in</a></p>
         </section>
