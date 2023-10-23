@@ -20,14 +20,7 @@ body {
     height: 100vh;
 }
 
-.right-section {
-    display: flex;
-    flex-direction: column;
-    width: 67%;
-    background-color: #f9fafb;
-}
-
-div:has(> h1) {
+div.header-div {
     background: #9f9890;
     opacity: 50%;
     display: inline-block;
@@ -41,7 +34,34 @@ h1 {
     padding: 6px;
 }
 
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    background-color: #f9fafb;
+    justify-content: center;
+    gap: 50px;
+}
+
+section.intro {
+    margin: 20px;
+}
+
 section.form-body {
     background: white;
     border: 1px solid slategrey;
+    flex-basis: 600px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+button.create-account {
+    background-color: #829460;
+    margin: 20px;
+}
+
+section.bottom-right > p {
+    margin: 20px;
 }
