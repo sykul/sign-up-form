@@ -111,7 +111,7 @@ section.form-body > p {
     box-shadow: 2px 2px 3px 0.5px #c7c7c7;
 }
 
-.label-field > input:invalid {
+form.submitted .label-field > input:not(:placeholder-shown):not(:focus):invalid {
     border: 1px red groove;
 }
 
