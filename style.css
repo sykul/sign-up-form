@@ -104,11 +104,15 @@ section.form-body > p {
 
 .label-field > input {
     border-radius: 5px;
+    height: 25px;
+    border: 1px black solid;
+    background-color: transparent;
 }
 
 .label-field > input:focus {
-    border: 1px rgb(41, 41, 136) groove;
-    box-shadow: 2px 2px 3px 0.5px #c7c7c7;
+    border: none;
+    outline: 2px #8d7643 solid;
+    box-shadow: 2px 2px 3px 0.5px #c4b174;
 }
 
 form.submitted .label-field > input:not(:placeholder-shown):not(:focus):invalid {
