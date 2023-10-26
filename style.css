@@ -100,23 +100,23 @@ section.form-body > p {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    border: none;
 }
 
 .label-field > input {
     border-radius: 5px;
     height: 25px;
-    outline: 1px black solid;
+    border: 1px black solid;
     background-color: transparent;
 }
 
 .label-field > input:focus {
-    outline: 2px #8d7643 solid;
+    outline: 0.2px;
+    border: 2px #8d7643 groove;
     box-shadow: 2px 2px 3px 0.5px #c4b174;
 }
 
-.label-field > input.matching {
-    outline: 2px red solid;
+.label-field > input.not-matching {
+    border: 1px red groove;
 }
 
 

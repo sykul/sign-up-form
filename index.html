@@ -38,8 +38,10 @@
                         </div>
                         <div>
                             <div class="label-field">
-                                <label for="email">EMAIL</label>
-                                <input type="email" id="email" name="email">
+                                <label for="email">
+                                    EMAIL<span aria-label="required">*</span>
+                                </label>
+                                <input type="email" id="email" name="email" required>
                             </div>
                             <div class="label-field">
                                 <label for="phone">PHONE</label>
@@ -48,11 +50,14 @@
                         </div>
                         <div>
                             <div class="label-field">
-                                <label for="pass">PASSWORD*</label>
+                                <label for="pass">
+                                    PASSWORD<span aria-label="required">*</span>
+                                </label>
                                 <input type="password" name="password" id="pass" required>
                             </div>
                             <div class="label-field">
-                                <label for="pass2">CONFIRM PASSWORD*</label>
+                                <label for="pass2">
+                                    CONFIRM PASSWORD<span aria-label="required">*</span></label>
                                 <input type="password" name="password2" id="pass2" required>
                             </div>
                         </div>
@@ -70,6 +75,5 @@
 </html>
 
 <!-- to-do:
-use JS to check password and confirm password are the same
 check all accessibility and other features are present in form (check lessons)
 -->
